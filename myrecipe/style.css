@@ -1,0 +1,139 @@
+body, html {
+    font-size: 120%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+img {
+    width: 400px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+#left {
+    
+    background-color: aliceblue;
+    width: 10em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+}
+
+details {
+    color: darkgreen;
+}
+
+details ul {
+    list-style-position: inside;
+}
+
+article {
+    margin-left: 40px;
+    min-width: 30rem;
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+#contactLink {
+    color: lightgreen;
+}
+
+ul {
+    list-style-type: square;
+}
+
+summary {
+    padding-top: 10px;
+}
+
+table {
+    margin-left: 2em;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid grey;
+}
+
+tr:hover {
+    background-color: rgb(166, 243, 207);
+}
+
+td.ingredient {
+    text-align: left;
+    padding-right: 2em;
+}
+
+td.amount {
+    text-align: right;
+    padding-left: 2em;
+}
+
+#right {
+    
+    position: fixed;
+    width: 10em;
+    margin: 0px;
+    top: 4rem;
+    right: 0;
+}
+
+.mainMenu {
+    background-color: rgb(166, 243, 207);
+    padding: 15px 5px 5px 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+ul.hiddenContent {
+    min-width: 9em;
+    margin: 0px;
+    padding: 5px 10px;
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    list-style-type: none;
+    list-style-position: inside;
+    z-index: 1;
+}
+
+#right:hover .hiddenContent {
+    display: block;
+}
+
+.hiddenContent li:hover {
+    background-color: rgb(166, 243, 207);
+}
