@@ -1,0 +1,34 @@
+aside {
+  float: right;
+  position:relative;
+}
+
+
+summary:after {
+    content: "+";
+    color: #FF00FF;
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: -5px 5px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+
+details[open] summary:after {
+    content: "-";
+    color: #FFFFFF
+}
+
+
+#w3devCampusVideo {
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+ 
+#w3devCampusVideo:hover {
+    width:400px;
+    transform:rotate(-5deg);
+}
